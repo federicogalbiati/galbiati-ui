@@ -1,5 +1,5 @@
 import React from 'react';
-import './header.css'; // Importiamo il file CSS per lo stile
+import './header.module.css'; // Importiamo il file CSS per lo stile
 
 // Definiamo i tipi per i props
 interface HeaderProps {
