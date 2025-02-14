@@ -1,7 +1,56 @@
-/*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
-*/
+/* Stile di base per la navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Stile per la navbar sticky */
+  .navbar.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Stile per il logo */
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Stile per i link */
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    margin-left: 20px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+  }
+  
+  /* Stile per il tema light */
+  .navbar.light {
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
+  /* Stile per il tema dark */
+  .navbar.dark {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .navbar.dark a {
+    color: #ffffff;
+  }

@@ -1,7 +1,82 @@
-/*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
-*/
+/* Stile di base per l'header */
+.header {
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Stile per l'header sticky */
+  .header.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Stile per il contenuto dell'header */
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Stile per il logo */
+  .header-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Stile per il testo dell'header */
+  .header-text h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+  
+  .header-text p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Stile per il pulsante CTA */
+  .header-cta {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header-cta:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Stile per il tema light */
+  .header.light {
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
+  /* Stile per il tema dark */
+  .header.dark {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .header.dark .header-text p {
+    color: #ccc;
+  }
+  
+  .header.dark .header-cta {
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
+  .header.dark .header-cta:hover {
+    background-color: #f0f0f0;
+  }
