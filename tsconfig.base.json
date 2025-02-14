@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@federicogalbiati/button-lib": ["components/button/src/index.ts"],
+      "@federicogalbiati/grid-lib": ["components/grid/src/index.ts"],
+      "@federicogalbiati/header-lib": ["components/header/src/index.ts"],
+      "@federicogalbiati/navbar-lib": ["components/navbar/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
